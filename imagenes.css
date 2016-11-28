@@ -1,0 +1,40 @@
+#contenedor {
+ 	width: 95vw;
+ 	height: 50vw;
+ 	border: 0.1vw solid black; 
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	justify-content: space-around;
+ 	background: silver;
+}
+#imgprincipal {
+	height: 35vw;
+	width: 50vw;
+	border: 0.1vw solid black;
+}
+#imggaleria {
+	height: 35vw;
+	width: 40vw;
+	border: 0.1vw solid black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+#imgprincipal > img {
+	height: 35vw;
+	width: 50vw;
+}
+#imggaleria > div {
+	height: 10vw;
+	width: 10vw;
+	border: 0.1vw solid black
+}
+#imggaleria > div > img {
+	height: 10vw;
+	width: 10vw;
+}
+#titulo {
+	width: 95vw;
+	height: 5vw;
+	text-align: center;
+}
